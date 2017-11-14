@@ -65,7 +65,7 @@
 								<?php echo do_shortcode('[contact-form-7 id="26" title="Форма заявки"]'); ?>
 								<div class="rb-phone">
 									Или позвоните нам:
-									<h2>+7 (495) 767-30-32</h2>
+									<h2>+7 (499) 112-43-05</h2>
 								</div>
 							</div>
 							<button class="md-close">X</button>
@@ -130,7 +130,7 @@
 							<?php echo do_shortcode('[contact-form-7 id="26" title="Форма заявки"]'); ?>
 							<div class="rb-phone">
 								Или позвоните нам:
-								<h2>+7 (495) 767-30-32</h2>
+								<h2>+7 (499) 112-43-05</h2>
 							</div>
 						</div>
 						<button class="md-close">X</button>
@@ -188,7 +188,7 @@
 							<?php echo do_shortcode('[contact-form-7 id="26" title="Форма заявки"]'); ?>
 							<div class="rb-phone">
 								Или позвоните нам:
-								<h2>+7 (495) 767-30-32</h2>
+								<h2>+7 (499) 112-43-05</h2>
 							</div>
 						</div>
 						<button class="md-close">X</button>
@@ -247,7 +247,7 @@
 							<?php echo do_shortcode('[contact-form-7 id="26" title="Форма заявки"]'); ?>
 							<div class="rb-phone">
 								Или позвоните нам:
-								<h2>+7 (495) 767-30-32</h2>
+								<h2>+7 (499) 112-43-05</h2>
 							</div>
 						</div>
 						<button class="md-close">X</button>

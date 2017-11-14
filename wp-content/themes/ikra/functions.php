@@ -102,7 +102,7 @@ function my_jquery_scripts() {
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://code.jquery.com/jquery-1.9.1.min.js');
 	wp_enqueue_script( 'jquery' );
-}    
+}
 add_action( 'wp_enqueue_scripts', 'my_jquery_scripts' );
 /**
  * Enqueue scripts and styles.
@@ -110,17 +110,17 @@ add_action( 'wp_enqueue_scripts', 'my_jquery_scripts' );
 function ikra_scripts() {
 	wp_enqueue_style( 'ikra-style', get_stylesheet_uri() );
 
-    wp_enqueue_style( 'ikra-fonts', get_stylesheet_directory_uri() . '/notoserif/notoserif.css' );
-    wp_enqueue_style( 'ikra-owl', get_stylesheet_directory_uri() . '/owl.carousel.css' );
-    wp_enqueue_style( 'ikra-owlth', get_stylesheet_directory_uri() . '/owl.theme.css' );
-    wp_enqueue_style( 'ikra-niftymodals', get_stylesheet_directory_uri() . '/jquery.niftymodals.css' );
-    
-    wp_enqueue_script( 'ikra-nifty', get_template_directory_uri() . '/js/jquery.niftymodals.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'ikra-carusel', get_template_directory_uri() . '/js/owl.carousel.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'ikra-maska', get_template_directory_uri() . '/js/jquery.maskedinput.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'ikra-equal', get_template_directory_uri() . '/js/equal-heights.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'ikra-sound', get_template_directory_uri() . '/js/ion.sound.js', array(), '1.0.0', true );
-    
+	wp_enqueue_style( 'ikra-fonts', get_stylesheet_directory_uri() . '/notoserif/notoserif.css' );
+	wp_enqueue_style( 'ikra-owl', get_stylesheet_directory_uri() . '/owl.carousel.css' );
+	wp_enqueue_style( 'ikra-owlth', get_stylesheet_directory_uri() . '/owl.theme.css' );
+	wp_enqueue_style( 'ikra-niftymodals', get_stylesheet_directory_uri() . '/jquery.niftymodals.css' );
+
+	wp_enqueue_script( 'ikra-nifty', get_template_directory_uri() . '/js/jquery.niftymodals.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'ikra-carusel', get_template_directory_uri() . '/js/owl.carousel.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'ikra-maska', get_template_directory_uri() . '/js/jquery.maskedinput.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'ikra-equal', get_template_directory_uri() . '/js/equal-heights.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'ikra-sound', get_template_directory_uri() . '/js/ion.sound.js', array(), '1.0.0', true );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

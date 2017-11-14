@@ -48,40 +48,8 @@
 
 <?php wp_footer(); ?>
 
-<script>
-	$(document).ready(function() {
-
-		$('.md-trigger').on('click',function(){
-
-			var modal = $(this).data('modal');
-			$("#" + modal).niftyModal();
-		});
-
-	});
-</script>
-<script src="js/owl.carousel.js"></script>
-<script>
-	$(document).ready(function() {
-		$("#owl-demo").owlCarousel({
-					navigation : true, // Show next and prev buttons
-					slideSpeed : 300,
-					paginationSpeed : 400,
-					singleItem:true
-					// "singleItem:true" is a shortcut for:
-					// items : 1,
-					// itemsDesktop : false,
-					// itemsDesktopSmall : false,
-					// itemsTablet: false,
-					// itemsMobile : false
-				});
-	});
-</script>
-<script>
-	jQuery(function($){
-		$(".phone").mask("+7(999) 999-9999");
-	});
-</script>
-<script>
+<script type="text/javascript">
+jQuery(function($){
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 200){
 			$('.logo').addClass("logo-small");
@@ -90,28 +58,31 @@
 			$('.logo').removeClass("logo-small");
 		}
 	});
-</script>
-<script>
-	jQuery(document).ready(function($){
-	// Прокрутка на все якоря (#) и на a[name]. v1.1
-	$('a[href*="#"]').on('click.smoothscroll', function( e ){
-		var hash    = this.hash,
-		_hash   = hash.replace(/#/,''),
-		theHref = $(this).attr('href').replace(/#.*/, '');
-		if( theHref && location.href.replace(/#.*/,'') != theHref ) return; // не текущая страница
-		var $target = _hash === '' ? $('body') : $( hash + ', a[name="'+ _hash +'"]').first();
-		if( ! $target.length ) return;
-		e.preventDefault();
-		$('html, body').stop().animate({ scrollTop: $target.offset().top }, 400, 'swing', function(){
-			window.location.hash = hash;
+	$(document).ready(function() {
+		$(".phone").mask("+7(999) 999-9999");
+		$('.md-trigger').on('click',function(){
+			var modal = $(this).data('modal');
+			$("#" + modal).niftyModal();
 		});
-	});
-});
-</script>
-
-<script>
-	$(document).ready(function(){
-
+		$("#owl-demo").owlCarousel({
+			navigation : true, // Show next and prev buttons
+			slideSpeed : 300,
+			paginationSpeed : 400,
+			singleItem:true
+		});
+	// Прокрутка на все якоря (#) и на a[name]. v1.1
+		$('a[href*="#"]').on('click.smoothscroll', function( e ){
+			var hash    = this.hash,
+			_hash   = hash.replace(/#/,''),
+			theHref = $(this).attr('href').replace(/#.*/, '');
+			if( theHref && location.href.replace(/#.*/,'') != theHref ) return; // не текущая страница
+			var $target = _hash === '' ? $('body') : $( hash + ', a[name="'+ _hash +'"]').first();
+			if( ! $target.length ) return;
+			e.preventDefault();
+			$('html, body').stop().animate({ scrollTop: $target.offset().top }, 400, 'swing', function(){
+				window.location.hash = hash;
+			});
+		});
 		ion.sound({
 			sounds: [
 			{name: "glass"}
@@ -128,8 +99,8 @@
 		$("#b02").on("click", function(){
 			ion.sound.play("bell_ring");
 		});
-
 	});
+});
 </script>
 
 <div class="md-overlay"></div>

@@ -4,9 +4,18 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/wp-content/themes/ikra/favicon.ico"/>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="//cdn.cn3bie.ru/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="//cdn.cn3bie.ru/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//cdn.cn3bie.ru/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//cdn.cn3bie.ru/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- ./favicon -->
 	<?php wp_head(); ?>
 <meta name="google-site-verification" content="Zflsx3vv1QoEmaRfbU8UVOVNjD5QGjk_AoWCciukHwo" />
 

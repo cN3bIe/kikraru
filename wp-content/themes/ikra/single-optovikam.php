@@ -30,7 +30,7 @@ get_header();?>
 	<section class="bigbutton">
 		<h2>Черная икра от производителя с доставкой по Москве</h2>
 		<h3>Доставка в течение дня, оплата при получении!</h3>
-		<p>+7 (495) 767-30-32</p>
+		<p>+7 (499) 404-14-60</p>
 		<a href="#" class="buy md-trigger" data-modal="modal-opt">Заказать оптом</a>
 	</section>
 	<div class="wrap clrfx">
