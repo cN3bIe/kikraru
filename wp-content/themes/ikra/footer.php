@@ -41,14 +41,9 @@
 		</div>
 		<button class="md-close">X</button>
 	</div>
-</div>
-
-
-
-
-<?php wp_footer(); ?>
-
-<script type="text/javascript">
+</div><?php
+wp_footer();
+?><script type="text/javascript">
 jQuery(function($){
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 200){
@@ -115,7 +110,6 @@ jQuery(function($){
 		tab_image_url: "http://tab.reformal.ru/T9GC0LfRi9Cy0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/ffffff/5a751dfaebac066a89e0cea4935e1a85/left/0/tab.png",
 		tab_border_width: 0
 	};
-
 	(function() {
 		var script = document.createElement('script');
 		script.type = 'text/javascript'; script.async = true;
